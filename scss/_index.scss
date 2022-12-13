@@ -1,0 +1,26 @@
+.carousel{
+    max-width: 600px;
+    justify-content: center;
+    padding: 10px 50px;
+    margin: 10px 50px;
+    align-items: center;
+    justify-items: center;
+}
+.carousel-item{
+    transition:ease-out;
+    animation:fadeIn 4s ease;
+    @keyframes fadeIn {
+        0%{
+            opacity: 0;
+            filter:blur(10px);
+        }
+        10%{
+            opacity: 1;
+            filter: blur(5px);
+        }
+    }
+    img{
+        height: auto;
+        justify-content: center;
+    }
+}
