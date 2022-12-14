@@ -1,5 +1,4 @@
 .carousel {
-  max-width: 600px;
   justify-content: center;
   padding: 10px 50px;
   margin: 10px 50px;
@@ -26,13 +25,17 @@
   justify-content: center;
 }
 
-.navbar {
-  padding: 1rem;
+nav {
+  padding: 2rem;
   font-family: "Bellefair", serif;
+}
+nav li {
+  font-size: 2rem;
 }
 
 .navbar-brand {
-  font-size: 2rem;
+  font-size: 2.7rem;
+  margin-left: 20px;
 }
 
 .navbar-collapse {
@@ -40,6 +43,22 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 950px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  nav li {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  nav li {
+    font-size: 1rem;
+  }
+}
 @media screen and (max-width: 520px) {
   .navbar-brand {
     display: none;
@@ -104,6 +123,10 @@ footer .copy {
 .gallery img:hover {
   opacity: 100%;
   transition: 0.2sg;
+}
+
+* aboutMe p {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
