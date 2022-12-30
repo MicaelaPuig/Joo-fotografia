@@ -1,7 +1,7 @@
 .carousel {
   justify-content: center;
   padding: 10px 50px;
-  margin: 10px 50px;
+  margin: 30px 50px 40px 50px;
   align-items: center;
   justify-items: center;
 }
@@ -23,8 +23,15 @@
 .carousel-item img {
   height: auto;
   justify-content: center;
+  align-items: center;
 }
 
+@media screen and (max-width: 620px) {
+  .index {
+    height: 380px;
+    margin-top: 80px;
+  }
+}
 nav {
   padding: 2rem;
   font-family: "Bellefair", serif;
@@ -57,11 +64,6 @@ nav li {
   }
   nav li {
     font-size: 1rem;
-  }
-}
-@media screen and (max-width: 520px) {
-  .navbar-brand {
-    display: none;
   }
 }
 footer {
