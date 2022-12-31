@@ -130,5 +130,8 @@ footer .copy {
 * aboutMe p {
   font-size: 2rem;
 }
+* aboutMe img {
+  width: 150px;
+}
 
 /*# sourceMappingURL=style.css.map */
